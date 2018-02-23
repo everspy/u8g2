@@ -14,4 +14,17 @@ The Arduino library U8g2 can be installed from the library manager of the Arduin
    * Only fonts allowed with fixed size per character (8x8 pixel).
    * Writes directly to the display. No buffer in the microcontroller required.
 
+ * Note for this forked version
+    * Modified to use with the ATmega328P
+    * Tested with ST7920
+    
 [Setup Guide and Reference Manual](https://github.com/olikraus/u8g2/wiki)
+
+Wiring:
+
+RS -> PD2 (CS)
+R/W -> PD3 (MOSI)
+E -> PD4 (SCK)
+RESET -> PD5
+
+These can be chaned in the u8x8_atmeag328p.c file.
