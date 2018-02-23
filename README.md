@@ -27,4 +27,4 @@ R/W -> PD3 (MOSI)<br />
 E -> PD4 (SCK)<br />
 RESET -> PD5<br />
 
-These can be chaned in the u8x8_atmeag328p.c file.
+These can be changed in the u8x8_atmega328p.c file.
