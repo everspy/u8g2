@@ -20,11 +20,11 @@ The Arduino library U8g2 can be installed from the library manager of the Arduin
     
 [Setup Guide and Reference Manual](https://github.com/olikraus/u8g2/wiki)
 
-Wiring:
+Wiring:<br /><br />
 
-RS -> PD2 (CS)
-R/W -> PD3 (MOSI)
-E -> PD4 (SCK)
-RESET -> PD5
+RS -> PD2 (CS)<br />
+R/W -> PD3 (MOSI)<br />
+E -> PD4 (SCK)<br />
+RESET -> PD5<br /><br />
 
 These can be chaned in the u8x8_atmeag328p.c file.
